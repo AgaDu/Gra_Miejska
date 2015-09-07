@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout android:orientation="vertical" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:textAppearance="?android:attr/textAppearanceLarge" android:text="Zagadka :" android:id="@+id/zagadka_txt"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:textAppearance="?android:attr/textAppearanceLarge" android:text="Rozwiazanie: " android:id="@+id/test"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:textAppearance="?android:attr/textAppearanceLarge" android:id="@+id/wynik" android:inputType="number"/>
+
+    <Button android:layout_height="61dp" android:layout_width="262dp" android:text="sprawdź" android:id="@+id/sprawdz" android:layout_marginTop="10dp" android:layout_gravity="center_horizontal"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:text="Współrzędne celu:" android:id="@+id/textView1" android:layout_marginTop="30dp"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:textAppearance="?android:attr/textAppearanceLarge" android:id="@+id/spr"/>
+
+    <Button android:layout_height="80dp" android:layout_width="165dp" android:text="Powtórz podpowiedź" android:id="@+id/powtorz" android:layout_marginTop="40dp" android:visibility="invisible"/>
+
+    <Button android:layout_height="80dp" android:layout_width="match_parent" android:text="Dalej" android:id="@+id/dalej" android:layout_marginTop="-80dp" android:visibility="invisible" android:layout_marginLeft="180dp"/>
+
+</LinearLayout>

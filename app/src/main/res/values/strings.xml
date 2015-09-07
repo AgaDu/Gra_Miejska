@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Gra miejska - Kraków</string>
+    <string name="welcome_text">Zapraszamy na niezwykłą podróż po wyjątkowym mieście Krakowie.</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
